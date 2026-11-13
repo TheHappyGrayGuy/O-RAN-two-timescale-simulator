@@ -1,0 +1,177 @@
+{
+ "method": "hybrid_sac",
+ "n_ue": 10,
+ "seed": 0,
+ "episodes": 150,
+ "evals": [
+  {
+   "episode": 10,
+   "first_objective": 0.03483821477829398,
+   "first_feasible": true,
+   "mean_objective": 0.03503687597783664,
+   "feasible": 1.0,
+   "mean_ratio": 0.9147123162832961,
+   "time": 100.25111865997314
+  },
+  {
+   "episode": 20,
+   "first_objective": 0.035222412270864985,
+   "first_feasible": true,
+   "mean_objective": 0.035274426503276855,
+   "feasible": 1.0,
+   "mean_ratio": 0.9209140790060111,
+   "time": 404.7931275367737
+  },
+  {
+   "episode": 30,
+   "first_objective": 0.035258527744131477,
+   "first_feasible": true,
+   "mean_objective": 0.035343258074495836,
+   "feasible": 1.0,
+   "mean_ratio": 0.9227110738631714,
+   "time": 552.9799613952637
+  },
+  {
+   "episode": 40,
+   "first_objective": 0.035222412270864985,
+   "first_feasible": true,
+   "mean_objective": 0.035274426503276855,
+   "feasible": 1.0,
+   "mean_ratio": 0.9209140790060111,
+   "time": 726.9100713729858
+  },
+  {
+   "episode": 50,
+   "first_objective": 0.03508424438553102,
+   "first_feasible": true,
+   "mean_objective": 0.035184790635404,
+   "feasible": 1.0,
+   "mean_ratio": 0.9185739436475988,
+   "time": 875.2376947402954
+  },
+  {
+   "episode": 60,
+   "first_objective": 0.03837639424207529,
+   "first_feasible": true,
+   "mean_objective": 0.038038288950366275,
+   "feasible": 1.0,
+   "mean_ratio": 0.9930705983961764,
+   "time": 1023.2916491031647
+  },
+  {
+   "episode": 70,
+   "first_objective": 0.035222412270864985,
+   "first_feasible": true,
+   "mean_objective": 0.035274426503276855,
+   "feasible": 1.0,
+   "mean_ratio": 0.9209140790060111,
+   "time": 1166.2780213356018
+  },
+  {
+   "episode": 80,
+   "first_objective": 0.03515008767761963,
+   "first_feasible": true,
+   "mean_objective": 0.03699588914128563,
+   "feasible": 1.0,
+   "mean_ratio": 0.9658565298684748,
+   "time": 1447.6255927085876
+  },
+  {
+   "episode": 90,
+   "first_objective": 0.04600137605935529,
+   "first_feasible": true,
+   "mean_objective": 0.046258423051189095,
+   "feasible": 1.0,
+   "mean_ratio": 1.2076747174471811,
+   "time": 1875.3046970367432
+  },
+  {
+   "episode": 100,
+   "first_objective": 0.04820680247636262,
+   "first_feasible": true,
+   "mean_objective": 0.0525683193539567,
+   "feasible": 1.0,
+   "mean_ratio": 1.3724080077742928,
+   "time": 2241.380742788315
+  },
+  {
+   "episode": 110,
+   "first_objective": 0.1199542829845901,
+   "first_feasible": true,
+   "mean_objective": 0.11731861589696947,
+   "feasible": 1.0,
+   "mean_ratio": 3.062852491704751,
+   "time": 2439.7507712841034
+  },
+  {
+   "episode": 120,
+   "first_objective": 0.04316937621654454,
+   "first_feasible": true,
+   "mean_objective": 0.040828977680904134,
+   "feasible": 1.0,
+   "mean_ratio": 1.0659274750866303,
+   "time": 2620.0183367729187
+  },
+  {
+   "episode": 130,
+   "first_objective": 0.048452882567239744,
+   "first_feasible": true,
+   "mean_objective": 0.04264335092592824,
+   "feasible": 1.0,
+   "mean_ratio": 1.113295555351785,
+   "time": 2822.7088630199432
+  },
+  {
+   "episode": 140,
+   "first_objective": 0.07651676273473093,
+   "first_feasible": true,
+   "mean_objective": 0.051261432249578964,
+   "feasible": 1.0,
+   "mean_ratio": 1.3382889347404319,
+   "time": 3026.7462165355682
+  },
+  {
+   "episode": 150,
+   "first_objective": 0.06299347882632322,
+   "first_feasible": true,
+   "mean_objective": 0.04438682434699075,
+   "feasible": 1.0,
+   "mean_ratio": 1.1588126446141744,
+   "time": 3283.2119493484497
+  }
+ ],
+ "best_first_objective": 0.03483821477829398,
+ "agent_cfg": {
+  "actor_hidden": [
+   1024,
+   512
+  ],
+  "critic_hidden": [
+   512,
+   256
+  ],
+  "actor_lr": 0.0001,
+  "critic_lr": 0.001,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "warmup": 500,
+  "expl_noise": 0.1,
+  "target_noise": 0.2,
+  "noise_clip": 0.5,
+  "policy_delay": 2,
+  "alpha_lr": 0.0003,
+  "init_alpha": 0.2
+ },
+ "env_cfg": {
+  "large_steps_per_episode": 10,
+  "randomize_users": true,
+  "penalty": 1.0,
+  "reward_clip": 10.0,
+  "reward_mode": "negative",
+  "large_prior": 1.0,
+  "small_temp": 1.0,
+  "action_penalty": 0.1
+ }
+}

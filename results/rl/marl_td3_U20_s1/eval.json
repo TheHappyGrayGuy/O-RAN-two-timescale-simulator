@@ -1,0 +1,222 @@
+{
+ "method": "marl_td3",
+ "n_ue": 20,
+ "seed": 1,
+ "episodes": 500,
+ "evals": [
+  {
+   "episode": 25,
+   "first_objective": 0.058793845233421606,
+   "first_feasible": true,
+   "mean_objective": 0.05775270300117406,
+   "feasible": 1.0,
+   "mean_ratio": 1.051159352588381,
+   "time": 277.140585899353
+  },
+  {
+   "episode": 50,
+   "first_objective": 0.054274790245400446,
+   "first_feasible": true,
+   "mean_objective": 0.05637570041741029,
+   "feasible": 1.0,
+   "mean_ratio": 1.026096471212383,
+   "time": 1210.7500321865082
+  },
+  {
+   "episode": 75,
+   "first_objective": 0.05277736622832964,
+   "first_feasible": true,
+   "mean_objective": 0.05382886212785918,
+   "feasible": 1.0,
+   "mean_ratio": 0.9797413614344489,
+   "time": 1828.9889616966248
+  },
+  {
+   "episode": 100,
+   "first_objective": 0.05180251066303637,
+   "first_feasible": true,
+   "mean_objective": 0.05272754720064455,
+   "feasible": 1.0,
+   "mean_ratio": 0.9596962825770438,
+   "time": 2347.0456182956696
+  },
+  {
+   "episode": 125,
+   "first_objective": 0.05351357443634313,
+   "first_feasible": true,
+   "mean_objective": 0.05412497938093063,
+   "feasible": 1.0,
+   "mean_ratio": 0.9851310038901885,
+   "time": 3258.754620075226
+  },
+  {
+   "episode": 150,
+   "first_objective": 0.05227380726622478,
+   "first_feasible": true,
+   "mean_objective": 0.05252635525999077,
+   "feasible": 1.0,
+   "mean_ratio": 0.956034379686034,
+   "time": 3798.7905638217926
+  },
+  {
+   "episode": 175,
+   "first_objective": 0.05222324141396522,
+   "first_feasible": true,
+   "mean_objective": 0.05253234456709468,
+   "feasible": 1.0,
+   "mean_ratio": 0.9561433913140728,
+   "time": 4458.750757694244
+  },
+  {
+   "episode": 200,
+   "first_objective": 0.051221497541653074,
+   "first_feasible": true,
+   "mean_objective": 0.05151557756037782,
+   "feasible": 1.0,
+   "mean_ratio": 0.937637172678869,
+   "time": 5556.811407327652
+  },
+  {
+   "episode": 225,
+   "first_objective": 0.051100752993587656,
+   "first_feasible": true,
+   "mean_objective": 0.05121913114158455,
+   "feasible": 1.0,
+   "mean_ratio": 0.9322415390641176,
+   "time": 6348.809588432312
+  },
+  {
+   "episode": 250,
+   "first_objective": 0.05177356605022733,
+   "first_feasible": true,
+   "mean_objective": 0.0520417229088223,
+   "feasible": 1.0,
+   "mean_ratio": 0.9472135660786212,
+   "time": 7362.144280910492
+  },
+  {
+   "episode": 275,
+   "first_objective": 0.05125125900291174,
+   "first_feasible": true,
+   "mean_objective": 0.05129301135201685,
+   "feasible": 1.0,
+   "mean_ratio": 0.9335862358511328,
+   "time": 8703.922499418259
+  },
+  {
+   "episode": 300,
+   "first_objective": 0.05418726322789955,
+   "first_feasible": true,
+   "mean_objective": 0.05449306053616096,
+   "feasible": 1.0,
+   "mean_ratio": 0.9918304643262484,
+   "time": 9399.86982345581
+  },
+  {
+   "episode": 325,
+   "first_objective": 0.053291902980174666,
+   "first_feasible": true,
+   "mean_objective": 0.05348419112654467,
+   "feasible": 1.0,
+   "mean_ratio": 0.9734679901847886,
+   "time": 10453.546517372131
+  },
+  {
+   "episode": 350,
+   "first_objective": 0.05228497581032148,
+   "first_feasible": true,
+   "mean_objective": 0.05227540842435847,
+   "feasible": 1.0,
+   "mean_ratio": 0.9514668858793456,
+   "time": 11122.03457903862
+  },
+  {
+   "episode": 375,
+   "first_objective": 0.0527378139803371,
+   "first_feasible": true,
+   "mean_objective": 0.052817498377301535,
+   "feasible": 1.0,
+   "mean_ratio": 0.9613334876896323,
+   "time": 12350.913712263107
+  },
+  {
+   "episode": 400,
+   "first_objective": 0.05214979106385476,
+   "first_feasible": true,
+   "mean_objective": 0.05234704272962373,
+   "feasible": 1.0,
+   "mean_ratio": 0.9527707048528792,
+   "time": 13739.734457492828
+  },
+  {
+   "episode": 425,
+   "first_objective": 0.05208742157972286,
+   "first_feasible": true,
+   "mean_objective": 0.05235629529730863,
+   "feasible": 1.0,
+   "mean_ratio": 0.9529391112226597,
+   "time": 14425.712465524673
+  },
+  {
+   "episode": 450,
+   "first_objective": 0.05118925023875832,
+   "first_feasible": true,
+   "mean_objective": 0.05124808194355767,
+   "feasible": 1.0,
+   "mean_ratio": 0.9327684738165631,
+   "time": 14962.357018709183
+  },
+  {
+   "episode": 475,
+   "first_objective": 0.05340548900665877,
+   "first_feasible": true,
+   "mean_objective": 0.053360481972311524,
+   "feasible": 1.0,
+   "mean_ratio": 0.9712163547163963,
+   "time": 15691.915741205215
+  },
+  {
+   "episode": 500,
+   "first_objective": 0.05479142428687352,
+   "first_feasible": true,
+   "mean_objective": 0.054644787942678776,
+   "feasible": 1.0,
+   "mean_ratio": 0.9945920611713686,
+   "time": 16749.30628323555
+  }
+ ],
+ "best_first_objective": 0.051100752993587656,
+ "agent_cfg": {
+  "actor_hidden": [
+   1024,
+   512
+  ],
+  "critic_hidden": [
+   512,
+   256
+  ],
+  "actor_lr": 0.0001,
+  "critic_lr": 0.001,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "warmup": 500,
+  "expl_noise": 0.1,
+  "target_noise": 0.2,
+  "noise_clip": 0.5,
+  "policy_delay": 2,
+  "alpha_lr": 0.0003,
+  "init_alpha": 0.2
+ },
+ "env_cfg": {
+  "large_steps_per_episode": 10,
+  "randomize_users": true,
+  "penalty": 1.0,
+  "reward_clip": 10.0,
+  "reward_mode": "negative",
+  "large_prior": 2.0,
+  "small_temp": 1.0,
+  "action_penalty": 0.1
+ }
+}

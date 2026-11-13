@@ -1,0 +1,13 @@
+2 runs on 2 workers, 150 episodes each
+done single_sac U=20 seed=0 final objective=0.068375 (75 min)
+done marl_td3 U=20 seed=0 final objective=0.055465 (79 min)
+# Learned policies vs the Phase-5 optimum
+
+Objective on the Phase-5 snapshot (lower is better); gap = objective / optimum - 1, mean over seeds.
+
+| U | optimum | static best | MARL (2 x TD3) (gap) | single SAC (gap) |
+|---|---|---|---|---|
+| 20 | 0.0399 | 0.0470 | 0.0499 (+25.3%) | 0.0448 (+12.4%) |
+
+Infeasible final policies count as inf. 'best' = best feasible evaluation during training.
+

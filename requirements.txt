@@ -1,0 +1,7 @@
+numpy>=2.0
+scipy>=1.13
+networkx>=3.0
+cvxpy>=1.5          # only for the reference power solver used in tests
+torch>=2.2
+matplotlib>=3.8
+pytest>=8.0

@@ -1,0 +1,9 @@
+# Learned policies vs the Phase-5 optimum
+
+Objective on the Phase-5 snapshot (lower is better); gap = objective / optimum - 1, mean over seeds.
+
+| U | optimum | static best | MARL (2 x TD3) (gap) | TD3 + convex (gap) | SAC + convex (gap) | single SAC (gap) |
+|---|---|---|---|---|---|---|
+| 5 | 0.0301 | 0.0341 | 0.0323 (+7.2%) | 0.0308 (+2.2%) | 0.0319 (+5.9%) | 0.0337 (+12.0%) |
+
+Infeasible final policies count as inf. 'best' = best feasible evaluation during training.

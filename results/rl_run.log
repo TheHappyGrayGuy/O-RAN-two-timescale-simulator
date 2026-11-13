@@ -1,0 +1,46 @@
+32 runs on 11 workers, 500 episodes each
+done hybrid_td3 U=20 seed=0 final objective=0.041768 (80 min)
+done hybrid_td3 U=20 seed=1 final objective=0.050368 (113 min)
+done single_sac U=10 seed=0 final objective=0.040550 (200 min)
+done marl_td3 U=15 seed=0 final objective=0.041967 (214 min)
+done marl_td3 U=15 seed=1 final objective=0.046781 (216 min)
+done marl_td3 U=20 seed=0 final objective=0.044712 (258 min)
+done single_sac U=10 seed=1 final objective=0.044746 (260 min)
+done single_sac U=15 seed=1 final objective=0.050441 (273 min)
+done marl_td3 U=20 seed=1 final objective=0.054791 (279 min)
+done single_sac U=15 seed=0 final objective=0.047885 (281 min)
+done hybrid_sac U=20 seed=0 final objective=0.041768 (94 min)
+done hybrid_sac U=20 seed=1 final objective=0.050368 (89 min)
+done single_sac U=20 seed=0 final objective=0.049196 (315 min)
+done single_sac U=20 seed=1 final objective=0.054407 (330 min)
+done hybrid_td3 U=15 seed=0 final objective=0.038687 (80 min)
+done hybrid_sac U=15 seed=0 final objective=0.038687 (74 min)
+done hybrid_td3 U=15 seed=1 final objective=0.046516 (82 min)
+done hybrid_td3 U=10 seed=0 final objective=0.035222 (76 min)
+done hybrid_sac U=15 seed=1 final objective=0.046516 (86 min)
+done single_sac U=5 seed=0 final objective=0.032485 (176 min)
+done hybrid_td3 U=5 seed=0 final objective=0.031913 (36 min)
+done hybrid_td3 U=10 seed=1 final objective=0.044235 (89 min)
+done hybrid_sac U=10 seed=0 final objective=0.035222 (74 min)
+done marl_td3 U=10 seed=0 final objective=0.038692 (148 min)
+done single_sac U=5 seed=1 final objective=0.042223 (196 min)
+done hybrid_td3 U=5 seed=1 final objective=0.042227 (43 min)
+done hybrid_sac U=10 seed=1 final objective=0.044235 (65 min)
+done marl_td3 U=10 seed=1 final objective=0.047406 (168 min)
+done hybrid_sac U=5 seed=0 final objective=0.031913 (37 min)
+done hybrid_sac U=5 seed=1 final objective=0.042227 (30 min)
+done marl_td3 U=5 seed=1 final objective=0.042916 (80 min)
+done marl_td3 U=5 seed=0 final objective=0.032407 (86 min)
+# Learned policies vs the Phase-5 optimum
+
+Objective on the Phase-5 snapshot (lower is better); gap = objective / optimum - 1, mean over seeds.
+
+| U | optimum | static best | MARL (2 x TD3) (gap) | TD3 + convex (gap) | SAC + convex (gap) | single SAC (gap) |
+|---|---|---|---|---|---|---|
+| 5 | 0.0308 | 0.0385 | 0.0371 (+20.2%) | 0.0371 (+20.0%) | 0.0371 (+20.0%) | 0.0372 (+20.3%) |
+| 10 | 0.0344 | 0.0424 | 0.0403 (+17.0%) | 0.0397 (+15.3%) | 0.0397 (+15.3%) | 0.0406 (+17.7%) |
+| 15 | 0.0383 | 0.0476 | 0.0434 (+13.1%) | 0.0426 (+10.9%) | 0.0426 (+10.9%) | 0.0450 (+17.3%) |
+| 20 | 0.0423 | 0.0510 | 0.0479 (+13.3%) | 0.0461 (+8.8%) | 0.0461 (+8.8%) | 0.0490 (+15.8%) |
+
+Infeasible final policies count as inf. 'best' = best feasible evaluation during training.
+

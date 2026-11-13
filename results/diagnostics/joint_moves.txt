@@ -1,0 +1,6 @@
+U= 5 s=1: 150 moves/step, 3 greedy steps -> gap   0.1%
+U=10 s=1: 160 moves/step, 3 greedy steps -> gap  10.3%
+U=15 s=1: 170 moves/step, 2 greedy steps -> gap  16.5%
+U=20 s=1: 180 moves/step, 3 greedy steps -> gap  12.1%
+U=10 s=0: 160 moves/step, 4 greedy steps -> gap   2.3%
+U=20 s=0: 180 moves/step, 4 greedy steps -> gap   2.9%

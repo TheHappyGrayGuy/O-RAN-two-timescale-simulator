@@ -1,0 +1,9 @@
+U=20  J_static(+convex)=0.04177  J_ref=0.04705  large_dim=128
+A beta=0: P(decision != static)=1.000  mean #changed=21.6
+A beta=0.5: P(decision != static)=1.000  mean #changed=15.0
+A beta=1: P(decision != static)=1.000  mean #changed=9.2
+A beta=2: P(decision != static)=0.000  mean #changed=0.0
+B random full decision: P(better than static)=0.00  median J/Jstatic=4.61  best=1.525  (0.05s per eval)
+C beta=1, noise 0.3: mean #changed=0.7  P(better)=0.09  median J/Jstatic=1.00  best=0.984
+D single local moves: n=100  P(improves)=0.24  best=0.984  median=1.027
+E greedy local moves: 3 moves -> J/Jstatic=0.981  J=0.04095

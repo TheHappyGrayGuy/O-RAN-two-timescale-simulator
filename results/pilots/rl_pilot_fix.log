@@ -1,0 +1,20 @@
+8 runs on 8 workers, 150 episodes each
+done hybrid_td3 U=10 seed=0 final objective=0.043082 (40 min)
+done hybrid_sac U=10 seed=0 final objective=0.062993 (55 min)
+done marl_td3 U=10 seed=0 final objective=0.051361 (59 min)
+done single_sac U=10 seed=0 final objective=0.040314 (60 min)
+done hybrid_td3 U=20 seed=0 final objective=0.050792 (63 min)
+done hybrid_sac U=20 seed=0 final objective=0.053142 (69 min)
+done single_sac U=20 seed=0 final objective=0.108740 (72 min)
+done marl_td3 U=20 seed=0 final objective=0.050275 (77 min)
+# Learned policies vs the Phase-5 optimum
+
+Objective on the Phase-5 snapshot (lower is better); gap = objective / optimum - 1, mean over seeds.
+
+| U | optimum | static best | MARL (2 x TD3) (gap) | TD3 + convex (gap) | SAC + convex (gap) | single SAC (gap) |
+|---|---|---|---|---|---|---|
+| 10 | 0.0335 | 0.0383 | 0.0375 (+11.9%) | 0.0351 (+4.9%) | 0.0348 (+4.0%) | 0.0372 (+11.2%) |
+| 20 | 0.0399 | 0.0470 | 0.0478 (+19.9%) | 0.0425 (+6.6%) | 0.0411 (+3.0%) | 0.0441 (+10.8%) |
+
+Infeasible final policies count as inf. 'best' = best feasible evaluation during training.
+

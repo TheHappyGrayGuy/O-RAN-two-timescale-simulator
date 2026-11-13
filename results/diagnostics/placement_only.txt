@@ -1,0 +1,6 @@
+U= 5 s=1: optimal placement + max-gain assoc   17.3% | + user sweeps   0.1% (2 sweeps, 0.3s)
+U=10 s=1: optimal placement + max-gain assoc  116.2% | + user sweeps   0.1% (4 sweeps, 2.6s)
+U=15 s=1: optimal placement + max-gain assoc   78.7% | + user sweeps   0.2% (3 sweeps, 4.2s)
+U=20 s=1: optimal placement + max-gain assoc   96.5% | + user sweeps   0.2% (4 sweeps, 6.8s)
+U=10 s=0: optimal placement + max-gain assoc   14.9% | + user sweeps   0.1% (2 sweeps, 1.3s)
+U=20 s=0: optimal placement + max-gain assoc   10.8% | + user sweeps   3.3% (4 sweeps, 5.5s)

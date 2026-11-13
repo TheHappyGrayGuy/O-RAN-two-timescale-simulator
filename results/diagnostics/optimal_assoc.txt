@@ -1,0 +1,8 @@
+U= 5 s=0: optimum 0.03013 | static assoc+fast PRB   5.9% | optimal assoc+fast PRB   0.1% | assoc differs 1/5, cu 2/4, du 2/4
+U= 5 s=1: optimum 0.03151 | static assoc+fast PRB  34.0% | optimal assoc+fast PRB   0.1% | assoc differs 2/5, cu 2/4, du 2/4
+U=10 s=0: optimum 0.03348 | static assoc+fast PRB   5.2% | optimal assoc+fast PRB   0.1% | assoc differs 3/10, cu 2/4, du 2/4
+U=10 s=1: optimum 0.03529 | static assoc+fast PRB  25.3% | optimal assoc+fast PRB   0.1% | assoc differs 6/10, cu 2/4, du 2/4
+U=15 s=0: optimum 0.03695 | static assoc+fast PRB   4.7% | optimal assoc+fast PRB   0.6% | assoc differs 5/15, cu 0/4, du 0/4
+U=15 s=1: optimum 0.03972 | static assoc+fast PRB  17.1% | optimal assoc+fast PRB   0.2% | assoc differs 5/15, cu 2/4, du 2/4
+U=20 s=0: optimum 0.03985 | static assoc+fast PRB   4.8% | optimal assoc+fast PRB   0.6% | assoc differs 6/20, cu 1/4, du 1/4
+U=20 s=1: optimum 0.04465 | static assoc+fast PRB  12.8% | optimal assoc+fast PRB   0.4% | assoc differs 11/20, cu 2/4, du 2/4

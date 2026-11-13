@@ -1,0 +1,94 @@
+{
+ "method": "single_sac",
+ "n_ue": 5,
+ "seed": 0,
+ "episodes": 150,
+ "evals": [
+  {
+   "episode": 25,
+   "first_objective": 0.0337291635242074,
+   "first_feasible": true,
+   "mean_objective": 0.03647402713345118,
+   "feasible": 1.0,
+   "mean_ratio": 1.0700388717742326,
+   "time": 415.70311546325684
+  },
+  {
+   "episode": 50,
+   "first_objective": 0.041786977945094124,
+   "first_feasible": true,
+   "mean_objective": 0.04903561074626663,
+   "feasible": 1.0,
+   "mean_ratio": 1.4385581665473433,
+   "time": 960.4588329792023
+  },
+  {
+   "episode": 75,
+   "first_objective": 0.04701008621813067,
+   "first_feasible": true,
+   "mean_objective": 0.04251776922121816,
+   "feasible": 1.0,
+   "mean_ratio": 1.2473441893698745,
+   "time": 1515.9395840168
+  },
+  {
+   "episode": 100,
+   "first_objective": 0.07217843860950617,
+   "first_feasible": true,
+   "mean_objective": 0.04821836460513948,
+   "feasible": 1.0,
+   "mean_ratio": 1.4145826089371583,
+   "time": 1830.3195304870605
+  },
+  {
+   "episode": 125,
+   "first_objective": 0.12410033338207874,
+   "first_feasible": true,
+   "mean_objective": 0.07483525823567368,
+   "feasible": 0.89,
+   "mean_ratio": 2.1954426638563707,
+   "time": 2151.14470744133
+  },
+  {
+   "episode": 150,
+   "first_objective": 0.05251002731409555,
+   "first_feasible": true,
+   "mean_objective": 0.0661769672601315,
+   "feasible": 0.99,
+   "mean_ratio": 1.941434301328579,
+   "time": 2420.228062391281
+  }
+ ],
+ "best_first_objective": 0.0337291635242074,
+ "agent_cfg": {
+  "actor_hidden": [
+   1024,
+   512
+  ],
+  "critic_hidden": [
+   512,
+   256
+  ],
+  "actor_lr": 0.0001,
+  "critic_lr": 0.001,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "buffer_size": 50000,
+  "batch_size": 128,
+  "warmup": 500,
+  "expl_noise": 0.1,
+  "target_noise": 0.2,
+  "noise_clip": 0.5,
+  "policy_delay": 2,
+  "alpha_lr": 0.0003,
+  "init_alpha": 0.2
+ },
+ "env_cfg": {
+  "large_steps_per_episode": 10,
+  "randomize_users": true,
+  "penalty": 1.0,
+  "reward_clip": 10.0,
+  "reward_mode": "negative",
+  "large_prior": 1.0
+ }
+}

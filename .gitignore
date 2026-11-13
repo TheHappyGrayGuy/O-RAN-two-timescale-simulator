@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# trained models and training checkpoints (large; regenerate with scripts/run_rl.py)
+*.pt
+
+# LaTeX build files
+*.aux
+*.log
+!results/**/*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.console.txt
+
+# Persian fonts are not redistributed; put IRNazanin*.ttf in chapter6/fonts/ to build chapter6_fa.tex
+chapter6/fonts/
